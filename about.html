@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | A.B.G.-L.</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<style>
+    body
+    {
+        text-align: left;
+        padding: 20px;
+        background-color: whitesmoke;
+
+        width: 500px;
+    }
+
+    body p 
+    {
+        border-left: 2px solid;
+        padding-left: 20px;
+    }
+    
+    #home
+    {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        text-decoration: none;
+        color: #426eff;
+    }
+
+    #more
+    {
+        background-color: white;
+        color: white;
+        padding: 3px;
+    }
+    #more:hover
+    {
+        color: initial;
+    }
+
+
+
+.animate-charcter
+{
+  background-image: linear-gradient(
+    -225deg,
+    #58d26c 0%,
+    #e43504 29%,
+    #2713ff 67%,
+    #33d74e 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+</style>
+<body>
+    <p>
+        
+        I was born in France.<br>
+        I am still young.<br>
+        I am interested in the emotional connection to places and people,
+        communication in all its ramifications, boats, healthy technology, traditions, the fauna and flora around me,
+        and how to make the world a nicer, <span class="animate-charcter">prettier</span> place.<br>
+        <em>“I would like to make it myself”</em> is a sentence I say <strike>too</strike> often.<br>
+        <br>
+        I can: code, draw, communicate (fluently).<br>
+
+    </p>
+
+    <span id="more">And no, I do not have a French <em>accent</em>, you can read all the <em>h's</em> around here free of charge!</span>
+
+    <a id="home" href="index.html">↩</a>
+
+</body>
+</html>

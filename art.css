@@ -1,0 +1,68 @@
+html
+{
+  background: whitesmoke;
+}
+
+.gallery
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: auto;
+}
+
+.art
+{
+  max-width: 300px;
+  max-height: 250px;
+  position: relative;
+  text-align: center;
+  display: grid;
+}
+
+.description
+{
+  display: none;
+}
+.art:hover .description
+{
+  display: initial;
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 1.5em;
+  color: darkred;
+  margin-top: 150px;
+}
+
+.art:hover img
+{
+  grid-column: 1;
+  grid-row: 1;
+  opacity: 0.2;
+}
+
+/*
+.art:focus
+{
+  max-width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -25vw;
+  opacity: 1;
+}
+*/
+
+
+#home
+{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  text-decoration: none;
+  width: 20px;
+  height: 20px;
+  color: #426eff;
+}
